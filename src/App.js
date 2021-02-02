@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import './Components/InfoCard.js';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import TreeGraph from './Components/TreeGraph.js';
 import InfoCard from './Components/InfoCard';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 const darkTheme = createMuiTheme({
   palette: {
